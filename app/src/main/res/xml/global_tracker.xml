@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
-    <!-- Replace UA-XXXXXXXXX with your actual tracking ID -->
-    <string name="ga_trackingId">G-0WF13DCW33</string>
-    <bool name="ga_reportUncaughtExceptions">true</bool>
-    <bool name="ga_dryRun">false</bool> <!-- Set to true for testing, false for production -->
-</resources>
