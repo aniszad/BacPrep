@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/user_feed"
+        android:icon="@drawable/icon_home"
+        android:title="" />
+    <item android:id="@+id/user_quizzes"
+        android:icon="@drawable/icon_quizzes"
+        android:title="" />
+    <item android:id="@+id/user_my_files"
+        android:title=""
+        android:icon="@drawable/icon_my_space"
+        />
+    <item android:id="@+id/user_progress"
+        android:icon="@drawable/icon_progress"
+        android:title="" />
+    <item android:id="@+id/user_multimedia"
+        android:icon="@drawable/icon_play"
+        android:title="" />
+</menu>

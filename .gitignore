@@ -17,3 +17,4 @@ app/res/raw
 local.properties
 /app/src/main/res/raw                                         
 app/src/main/res/raw
+google-services.json

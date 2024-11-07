@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/admin_feed"
+        android:icon="@drawable/icon_home"
+        android:title="" />
+    <item android:id="@+id/admin_create_post"
+        android:icon="@drawable/icon_my_space"
+        android:title=""
+        />
+    <item android:id="@+id/admin_account"
+        android:icon="@drawable/icon_account"
+        android:title="" />
+</menu>

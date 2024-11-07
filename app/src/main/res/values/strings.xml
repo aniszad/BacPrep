@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">Bac Prep</string>
+
+
+    // System
+    <string name="recent_files_file_provider_authority">com.tp.bacprep.fileprovider</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_couldnt_load">image couldn\'t load</string>
+    <string name="next">Suivant</string>
+    <string name="commencer">Commencer</string>
+    <string name="valider">Valider</string>
+    <string name="finir">Finir</string>
+    <string name="creer_un_compte">créer un compte</string>
+    <string name="verifier">Vérifier</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="email_de_v_rification_envoy">Email de vérification envoyé</string>
+    <string name="telechargement">Téléchargements</string>
+    <string name="email">email</string>
+    <string name="mot_de_passe">mot de passe</string>
+    <string name="mot_de_passe_oublie">mot de passe oublié</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="vous_n_avez_pas_de_compte">Vous n\'avez pas de compte?</string>
+    <string name="publications">Publications</string>
+    <string name="questions">Questions</string>
+    <string name="mes_questions">Mes Questions</string>
+    <string name="saisissez_votre_question">Saisissez votre question</string>
+    <string name="annuler_l_inscription">Annuler l\'inscription</string>
+    <string name="tes_vous_s_r_e_de_vouloir_annuler_le_processus_d_inscription">Êtes-vous sûr(e) de vouloir annuler le processus d\'inscription ?</string>
+    <string name="ok">OK</string>
+    <string name="nom_de_dossier">Nom de dossier</string>
+    <string name="cr_er_un_dossier">Créer un dossier:</string>
+    <string name="annuler">Annuler</string>
+    <string name="cr_er">Créer</string>
+    <string name="ajouter_un_flair">Ajouter un flair</string>
+    <string name="aucun_element_trouve">Aucun element trouvé.</string>
+    <string name="reessayer">Reéssayer</string>
+    <string name="audio_resources_page_description">Ici vous trouvrez des cours audio qui vous permet de réviser et mémoriser beaucoup d\'informations</string>
+    <string name="audio_resources_page_title">Leçons Audio</string>
+    <string name="librairie">Librairie</string>
+    <string name="rechercher">Rechercher...</string>
+    <string name="banque_de_sujets">Banque de fichiers</string>
+    <string name="resources">Resources</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="fichiers">Fichiers</string>
+    <string name="liens">liens</string>
+    <string name="recent">Recent</string>
+    <string name="contribuer">Contribuer</string>
+    <string name="ob_one_text">Découvrez une nouvelle façon d\'étudier et de vous préparer pour votre Bac. Notre application d\'apprentissage en ligne vous offre des ressources pédagogiques de qualité,</string>
+    <string name="bienvenue">Bienvenue !</string>
+    <string name="commencer_a_apprendre">Commencer à apprendre</string>
+    <string name="ob_two_text">Notre application vous permet de connecter avec des miliers de candidats de BAC et partager les informations.</string>
+    <string name="relevez_le_defis">Suivez votre progression et relevez des défis</string>
+    <string name="ob_three_text">Suivez votre progression à travers les cours et les quiz.</string>
+    <string name="mois">Mois</string>
+    <string name="jours">Jours</string>
+    <string name="heures">Heures</string>
+    <string name="jusqu_aux_epreuves_du_bac">jusqu\'aux épreuves du BAC</string>
+    <string name="filiere">Filière </string>
+    <string name="progres_total">progrès total</string>
+    <string name="question">Question</string>
+    <string name="skip">Skip</string>
+    <string name="soumettre">Soumettre</string>
+    <string name="testez_vos_connaissances">Testez vos connaissances</string>
+    <string name="quizzes_page_description">Découvrez une variété de quiz et mettez à l\'épreuve vos connaissances dans divers sujets.</string>
+    <string name="math">Math</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="telephone">Téléphone</string>
+    <string name="felicitation">Félicitation</string>
+    <string name="vous_avez_obtenu">Vous avez obtenu :</string>
+    <string name="vous_avez_repondu_correctement_sur">Vous avez répondu correctement sur :</string>
+    <string name="vous_avez_repndu_incorrectement_sur">Vous avez répndu incorrectement sur :</string>
+    <string name="terminer">Terminer</string>
+    <string name="aucun_element_trouve_no_connection">Aucun element trouvé, vérifier votre connexion internet</string>
+    <string name="personnalitees">Personnalitées</string>
+    <string name="meilleur_score">Meilleur score: </string>
+    <string name="semestre_1">Semestre 1</string>
+    <string name="a_demande">a demandé :</string>
+    <string name="repondre">Répondre</string>
+
+    <string-array name="role_choices">
+        <item>Étudiant</item>
+        <item>Titulaire de Baccalauréat ou créateur</item>
+        <item>Enseignant</item>
+    </string-array>
+
+    <string-array name="branches">
+        <item>Sciences expérimentales</item>
+        <item>Math</item>
+        <item>Gestion et économie</item>
+        <item>Langues étrangères</item>
+        <item>Lettres et philosophie</item>
+        <item>Technique mathématique - génie mécanique</item>
+        <item>Technique mathématique - génie électrique</item>
+        <item>Technique mathématique - génie civil</item>
+        <item>Technique mathématique - Ingénierie des méthodes</item>
+    </string-array>
+
+
+    <!--Constants values -->
+    <!-- MODULE NAMES-->
+
+    <string name="science">Science</string>
+    <string name="mathematique">Mathématique</string>
+    <string name="physique">Physique</string>
+    <string name="histoire">Histoire</string>
+    <string name="geographie">Géographie</string>
+    <string name="anglais">Anglais</string>
+    <string name="francais">Français</string>
+    <string name="arabe">Arabe</string>
+    <string name="s_islamique">S.Islamique</string>
+    <string name="philo">Philo</string>
+    <string name="genie_des_procédés">Génie des procédés</string>
+    <string name="genie_electrique">Génie électrique</string>
+    <string name="genie_civil">Génie civil</string>
+    <string name="genie_mecanique">Génie mécanique</string>
+    <string name="economie_et_gestion">Economie et gestion</string>
+    <string name="loi">Loi</string>
+    <string name="gestion_comptable_et_financiere">Gestion comptable et financière</string>
+    <string name="espagnol">Espagnol</string>
+    <string name="allemand">Allemand</string>
+
+    <!--filieres-->
+    <string name="science_filiere">Sciences expérimentales</string>
+    <string name="math_filiere">Math</string>
+    <string name="math_tech_branch_mec">Technique mathématique - génie mécanique</string>
+    <string name="math_tech_branch_ele">Technique mathématique - génie électrique</string>
+    <string name="math_tech_branch_civ">Technique mathématique - génie civil</string>
+    <string name="math_tech_branch_meth">Technique mathématique - Ingénierie des méthodes</string>
+    <string name="gestion_filiere">Gestion et economie</string>
+    <string name="langues_filiere">Langues étrangères</string>
+    <string name="lettre_filiere">Lettres et philosophie</string>
+    <string name="quiz_type">Type de quiz</string>
+    <string name="quiz_semester">Semestre</string>
+    <string name="dates_quiz">Dates</string>
+    <string name="perso_quiz">Personnalitées</string>
+    <string name="termes_quiz">Termes</string>
+
+    <!--SEMESTER-->
+    <string name="semester">Semestre</string>
+    <string name="semester_1">Semestre 1</string>
+    <string name="semester_2">Semestre 2</string>
+    <string name="semester_3">Semestre 3</string>
+    <string name="semester_all">Tout les semestres</string>
+    <string name="langue">Langue</string>
+    <string name="changer_mon_mot_de_passe">Changer mon mot de passe</string>
+    <string name="aide">Aide</string>
+    <string name="change_language">Change language</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="envoyer_un_email_de_verification">envoyer un email de verification</string>
+    <string name="mes_progres">Mes progrès</string>
+    <string name="minuteur">Minuteur</string>
+    <string name="chargement">Chargement...</string>
+    <string name="plus">Plus</string>
+    <string name="mes_fichiers">Mes Fichiers</string>
+    <string name="etude">Étude :</string>
+    <string name="repos">Repos :</string>
+    <string name="mon_compte">Mon Compte</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="matheleme">Mathéleme</string>
+    <string name="scientifique">scientifique</string>
+    <string name="technique_math">Technique Math</string>
+    <string name="cours">Cours</string>
+    <string name="exercices">Exercices</string>
+    <string name="sujets">Sujets</string>
+    <string name="resume">Resume</string>
+    <string name="mes_publication">Mes Publication</string>
+    <string name="deconnecter">Déconnecter</string>
+    <string name="tout_les_tags">Tout les tags :</string>
+    <string name="appliquer">appliquer</string>
+    <string name="flair_text">Ajouter des flairs qui correspondent à votre publication</string>
+    <string name="conseils">Conseils</string>
+    <string name="information">Information</string>
+    <string name="enregistre">Enregistré</string>
+    <string name="il_y_a">"il y a "</string>
+    <string name="minutes">minutes</string>
+    <string name="bonjour">Bonjour !</string>
+    <string name="creer_un_post">Créer un publication</string>
+    <string name="titre">Titre</string>
+    <string name="text">Text …</string>
+    <string name="publier">publier</string>
+    <string name="ajouter_un_attachment">Ajouter un attachment</string>
+    <string name="ajouter_un_tag">Ajouter un tag</string>
+    <string name="attention">Attention</string>
+    <string name="probleme_de_connection">Problème de connection</string>
+    <string name="veuillez_verifiez">veuillez vérifiez que vous etes connecter et réessayez.</string>
+    <string name="change_psw_warning_text">Êtes-vous sûr(e) de vouloir changer votre mot de passe ? si vous continuez un email sera envoyé a votre adresse email.</string>
+    <string name="cancel_inscription_warning_text">Êtes-vous sûr(e) de vouloir annuler le processus d\'inscription ?</string>
+    <string name="delete_request_warning_text">Êtes-vous sûr(e) de vouloir supprimer la requête</string>
+    <string name="returner">Returner</string>
+    <string name="email_envoye">Email envoyé</string>
+    <string name="clickez_sur_le_lien_et_changez_le_mot_de_passe">clickez sur le lien et changez le mot de passe.</string>
+    <string name="email_de_changement_de_mot_de_passe_envoy">Email de changement de mot de passe envoyé</string>
+    <string name="email_non_envoy">Email non envoyé</string>
+    <string name="entrez_votre_email">Entrez l\'adresse email associée a votre compte</string>
+    <string name="email_invalid">Email invalid</string>
+    <string name="registration_failed">Registration failed</string>
+    <string name="utilisateur">Utilisateur</string>
+    <string name="veuillez_remplir_les_champs_necessaires">Veuillez remplir les champs nécessaires</string>
+    <string name="v_rifaction_de_compte">Vérification de compte</string>
+    <string name="votre_compte_n_est_pas_encore_verifie">Votre compte n\'est pas encore vérifié</string>
+    <string name="email_de_v_rification_non_envoy">Email de vérification non envoyé</string>
+    <string name="finaliser_creation_du_compte">Veuillez vérifier votre adresse e-mail pour finaliser la création de compte.</string>
+    <string name="_1_envoyer_un_email_de_v_rification_l_adresse">1. Envoyer un email de vérification à l\'adresse :</string>
+    <string name="_2_cliquer_sur_le_lien_de_v_rification_dans_l_email">2. Cliquer sur le lien de vérification dans l\'email.</string>
+    <string name="_3_revenez_l_application_et_cliquez_sur_terminer_une_fois_la_v_rification_effectu_e">3. Revenez à l\'application et cliquez sur \'Terminer\' une fois la vérification effectuée.</string>
+    <string name="dates">Dates</string>
+    <string name="termes">Termes</string>
+    <string name="janvier">Janvier</string>
+    <string name="fevrier">Février</string>
+    <string name="mars">Mars</string>
+    <string name="avril">Avril</string>
+    <string name="may">May</string>
+    <string name="juin">Juin</string>
+    <string name="juillet">Juillet</string>
+    <string name="ao_t">Août</string>
+    <string name="septembre">Septembre</string>
+    <string name="octobre">Octobre</string>
+    <string name="novembre">Novembre</string>
+    <string name="decembre">Décembre</string>
+    <string name="temps_d_tudes_de_mois_en_heures">Temps d\'études de mois en heures</string>
+    <string name="temps_d_tudes_de_la_semaine_en_heures">Temps d\'études de la semaine en heures</string>
+    <string name="mois_pluriel">Mois</string>
+    <string name="enregistrements">Enregistrements</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="requete_supprim_e">Requete supprimée</string>
+    <string name="requete_non_supprim_e">Requete non supprimée</string>
+    <string name="erreur">Erreur</string>
+    <string name="vous_avez_d_ja_en_requete_aujourd_hui">Vous avez déja en requete aujourd\'hui</string>
+    <string name="ajouter_un_titre_et_un_text_a_votre_publication">Ajouter un titre et un text a votre publication.</string>
+    <string name="publication_envoy_e">Publication envoyée</string>
+    <string name="la_publication_n_a_pas_t_envoy_e">La Publication n\'a pas été envoyée</string>
+    <string name="echoué">Echoué</string>
+    <string name="annee">Année</string>
+    <string name="jour_mois_annee">Jour/Mois/Année</string>
+    <string name="a_repondu_a">"a répondu à : "</string>
+
+
+    <string name="t_l_chargez_le_fichier_pour_l_ouvrir">Téléchargez le fichier pour l\'ouvrir</string>
+    <string name="votre_compte_admin_n_est_pas_encore_approuv">Votre compte admin n\'est pas encore approuvé</string>
+    <string name="erreur_veuillez_r_essayez">erreur, veuillez réessayez</string>
+    <string name="votre_email_n_est_pas_encore_v_rifi_veuillez_consulter_votre_boite_email">votre email n\'est pas encore vérifié, veuillez consulter votre boite email</string>
+    <string name="t_l_chargement_fini">Téléchargement fini</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="reponses">Réponses</string>
+    <string name="aucun_element_trouvé">Aucun élément trouvé</string>
+    <string name="autorisation_accordée">Autorisation accordée</string>
+    <string name="autorisation_refusée">Autorisation refusée</string>
+    <string name="requêtes">Requêtes</string>
+    <string name="supprimer_mon_compte">Supprimer mon compte</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="download_completed">Téléchargement terminé</string>
+    <string name="download_failed">Téléchargement échoué</string>
+    <string name="enregistrés">Enregistrés</string>
+    <string name="theme">Theme</string>
+    <string name="mode_sombre">Mode sombre</string>
+
+    <string name="infos">infos</string>
+    <string name="search">search</string>
+    <string name="filtres">filtres</string>
+    <string name="date_de_debut">date de début</string>
+    <string name="date_de_fin">date de fin</string>
+    <string name="choississez_une_date_de_d_but_et_unde_date_de_fin">Choississez une date de début et unde date de fin</string>
+    <string name="no_email_app_found">No email app found.</string>
+    <string name="type_de_compte">Type de compte</string>
+    <string name="moyenne_de_bac">Moyenne de bac</string>
+    <string name="matiere_et_etablissement">Matière et établissement</string>
+    <string name="programme">Programme</string>
+    <string name="histoire_geo">Histoire et géographie</string>
+    <string name="tamazight">Tamazight</string>
+    <string name="sport">Sport</string>
+    <string name="module">Module</string>
+    <string name="matière">Matière</string>
+    <string name="coefficient">Coefficient</string>
+    <string name="note">Note</string>
+    <string name="résultat">Résultat</string>
+    <string name="calculer">Calculer</string>
+    <string name="troisieme_langue_etrangere">Troisième langue étrangère</string>
+    <string name="technologie">Technologie</string>
+    <string name="economie">Economie</string>
+    <string name="comptabilit">Comptabilité</string>
+    <string name="droit">Droit</string>
+    <string name="_20_0">20.0</string>
+    <string name="_0_0">0.0</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="portail_d_universit">Portail d\'université</string>
+    <string name="calculatrice_de_moyenne">Calculatrice de moyenne</string>
+    <string name="etes_vous_sur_de_supp">Êtes-vous sûr de vouloir supprimer ce fichier ? Cette action est irréversible et toutes les données seront perdues. Voulez-vous continuer ?</string>
+    <string name="see_answers">Voir réponses</string>
+</resources>

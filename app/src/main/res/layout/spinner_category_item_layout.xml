@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/im_matiere"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/icon_quizzes"
+        app:tint="@color/white" />
+    <TextView
+        android:id="@+id/tv_spinner_item"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginStart="5dp"
+        android:background="@android:color/transparent"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:text="Mathématique"
+        android:textSize="@dimen/_8ssp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@id/im_matiere"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
