@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Black colors -->
+    <color name="black">#FFFFFFFF</color>
+    <color name="black_icon">#71797E</color>
+    <color name="black_text">#FFFFFF</color>
+
+    <!-- white colors -->
+    <color name="white">#000000</color>
+    <color name="white_to_deep_charcoal">#121113</color>
+    <color name="white_to_grayish_black">#1B2021</color>
+    <color name="blackish_widget">#121113</color>
+    <color name="blackish_to_deep_charcoal">#121113</color>
+
+
+    <!-- Other -->
+    <color name="link_color">#FFFFFF</color>
+
+
+    <!-- Gray Colors -->
+    <color name="light_gray_to_deep_charcoal">#121113</color>
+    <color name="light_gray_constant">#F2F2F2</color>
+    <color name="grayish_black_to_light_gray">#F2F2F2</color>
+    <color name="gunmetal_gray">#121113</color>
+    <color name="light_gray_to_grayish_black">#1B2021</color>
+
+
+
+    <color name="blue">#6C85D7</color>
+    <color name="blue_transparent">#806C85D7</color>
+    <color name="green">#0A8159</color>
+    <color name="green_transparent">#800A8159</color>
+    <color name="yellow">#FFA215</color>
+    <color name="red">#FC533C</color>
+    <color name="gray_third">#1B2021</color>
+    <color name="gray_third_constant">#EFF0F2</color>
+    <color name="gray_second">#838383</color>
+    <color name="gray_to_light_gray">#F2F2F2</color>
+    <color name="steel_gray">#71797E</color>
+    <color name="gold">#FFD700</color>
+
+
+    <color name="blackish">#FF000000</color>
+    <color name="blackish_gray">#71797E</color>
+    <color name="blackish_to_white">#FFFFFF</color>
+    <color name="sea_blue">#006994</color>
+    <color name="blue_secondary">#6499FF</color>
+
+    <color name="flair_blue">#2196F3</color>
+    <color name="flair_green">#27AE60</color>
+    <color name="flair_purple">#9C27B0</color>
+    <color name="flair_red">#F44336</color>
+    <color name="flair_orange">#FF9800</color>
+    <color name="flair_cyan">#00BCD4</color>
+    <color name="flair_indigo">#3F51B5</color>
+    <color name="flair_brown">#795548</color>
+    <color name="flair_teal">#009688</color>
+
+
+    <color name="green_folder">#018E42</color> <!-- Light Green -->
+    <color name="blue_folder">#0081AF</color> <!-- Light Blue -->
+    <color name="yellow_folder">#FDCA40</color> <!-- Light Yellow -->
+    <color name="red_folder">#DB504A</color>
+
+</resources>

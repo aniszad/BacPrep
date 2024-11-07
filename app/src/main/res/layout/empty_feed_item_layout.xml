@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_6sdp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:cardElevation="0dp"
+    android:layoutDirection="ltr"
+    app:cardBackgroundColor="@color/light_gray_to_deep_charcoal"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aucun_element_trouve"
+
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cornerRadius="12dp"
+                android:textColor="@color/green"
+                android:background="@android:color/transparent"
+                android:text="@string/reessayer"
+                android:textAllCaps="false"
+                app:iconTint="@color/green"
+                app:icon="@drawable/icon_retry"
+                />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/register_ac"
+    android:layout_height="match_parent"
+    android:windowTranslucentStatus="true"
+    tools:context=".activities.shared.RegisterActivity"
+    android:background="@drawable/onb_backg"
+    >
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/icon_arrow_left"
+        android:layout_marginStart="15dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/tv_register_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue, créons un compte pour vous !"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/btn_back"
+        android:layout_marginVertical="@dimen/_25sdp"
+        />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_register_title"
+        app:layout_constraintBottom_toTopOf="@id/btn_register"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_80sdp"
+        android:backgroundTint="@color/yellow"
+        android:padding="12dp"
+        android:gravity="center"
+        android:text="Créer un compte"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/fragment_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

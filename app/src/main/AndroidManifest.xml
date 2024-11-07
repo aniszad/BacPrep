@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <queries>
+
+        <!-- Declare the Gmail package -->
+        <package android:name="com.google.android.gm" />
+    </queries>
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BacPrep"
+        tools:targetApi="31">
+        <activity
+            android:name=".presentation.activities.user.AverageCalculatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.user.UserSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.admin.MyPostsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.user.AudioPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.user.PomodoroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.user.EditProgressActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".util.DownloadService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync|mediaPlayback|location|connectedDevice" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.tp.bacprep.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".presentation.activities.FileViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.user.FilesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.shared.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.user.SendRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.admin.ReceivedRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.admin.AdminMainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+        <activity
+            android:name=".presentation.activities.user.UserMainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing" />
+        <activity
+            android:name=".presentation.activities.shared.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.shared.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="verification"
+                    android:scheme="com.tp.bacprep.verify" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.activities.shared.OnBoardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activities.StarterActivity"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

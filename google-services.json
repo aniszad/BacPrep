@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "268577189398",
+    "project_id": "bacprep-20e99",
+    "storage_bucket": "bacprep-20e99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268577189398:android:1a8e16d29043d885340f37",
+        "android_client_info": {
+          "package_name": "com.tp.bacprep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268577189398-f41jhsgu0vhlfh73fjv18eq7e87i8mtu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tp.bacprep",
+            "certificate_hash": "239fc2dba0892cc3e1e90dff2301de93ec38be56"
+          }
+        },
+        {
+          "client_id": "268577189398-n9u187qjuqhglunbt153n6om4em3ah70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmjqHodRDR_4y0-f68ZiuVzxs9noSYFc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268577189398-n9u187qjuqhglunbt153n6om4em3ah70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

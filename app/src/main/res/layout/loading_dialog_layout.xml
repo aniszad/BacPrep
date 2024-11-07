@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_120sdp"
+    android:layout_height="@dimen/_40sdp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@android:color/white"
+    android:background="@android:color/transparent"
+    app:cardCornerRadius="12dp">
+        <TextView
+            android:id="@+id/tv_progress_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="@dimen/_12ssp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/chargement"
+            />
+</com.google.android.material.card.MaterialCardView>
