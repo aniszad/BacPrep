@@ -289,4 +289,10 @@
     <string name="calculatrice_de_moyenne">Calculatrice de moyenne</string>
     <string name="etes_vous_sur_de_supp">Êtes-vous sûr de vouloir supprimer ce fichier ? Cette action est irréversible et toutes les données seront perdues. Voulez-vous continuer ?</string>
     <string name="see_answers">Voir réponses</string>
+    <string name="informations_personnelles">Informations Personnelles</string>
+    <string name="mes_information">Mes Information</string>
+    <string name="support">Support</string>
+    <string name="appearance">Appearance</string>
+    <string name="account">Account</string>
+    <string name="image_description">image_description</string>
 </resources>

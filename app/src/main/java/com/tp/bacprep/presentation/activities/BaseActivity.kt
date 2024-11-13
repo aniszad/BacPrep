@@ -127,6 +127,7 @@ open class BaseActivity : AppCompatActivity() {
         bindingDialog.tvContent.text = content
         bindingDialog.btnConfirm.setOnClickListener {
             onConfirmed.invoke()
+            hideWarningDialog()
         }
         bindingDialog.btnCancel.setOnClickListener {
             hideWarningDialog()

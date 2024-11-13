@@ -41,6 +41,8 @@ import com.tp.bacprep.util.Constants
 import com.tp.bacprep.util.DocumentSnapshotConverter
 import com.tp.bacprep.util.DownloadService
 import com.tp.bacprep.util.NetworkChangeReceiver
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
 
 class FeedFragment : BaseFragment(), FeedRvAdapter.AttachmentItemClickListener, NetworkChangeReceiver.ConnectivityChangeListener,
@@ -416,7 +418,9 @@ class FeedFragment : BaseFragment(), FeedRvAdapter.AttachmentItemClickListener, 
 
     override fun inMyBookmarksListener(postId: String, callback: (Boolean) -> Unit) {
         postsViewModel.inMyBookmarks(postId){inMyBookmarks ->
-            callback(inMyBookmarks)
+            GlobalScope.launch {
+                callback(inMyBookmarks)
+             }
         }
     }
 
@@ -425,6 +429,7 @@ class FeedFragment : BaseFragment(), FeedRvAdapter.AttachmentItemClickListener, 
         val filter = IntentFilter(Constants.DOWNLOAD_FILE_FROM_FIREBASE_ACTION)
         context.registerReceiver(receiver, filter)
     }
+
 
     // unregister broadcast receiver
     fun unregister(context: Context) {

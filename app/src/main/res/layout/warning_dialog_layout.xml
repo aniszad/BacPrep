@@ -79,6 +79,7 @@
                 android:textAllCaps="false"
                 app:cornerRadius="6dp"
                 app:elevation="0dp"
+                android:textColor="@color/white_constant"
                 android:textSize="@dimen/_7ssp"
                 android:backgroundTint="@color/sea_blue"
                 app:layout_constraintStart_toEndOf="@id/btn_confirm"

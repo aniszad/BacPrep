@@ -264,7 +264,7 @@ class FeedRvAdapter(
     private fun setFlairs(holder: UserNewsFeedViewHolder, flairsList: List<String>) {
         holder.flairsLl.removeAllViews()
         if (flairsList.isNotEmpty()) {
-            for (flair in flairsList.subList(0, 2)) {
+            for (flair in flairsList.subList(0, if(flairsList.size > 2) 2 else flairsList.size)) {
                 val flairView = FlairView(context, null)
                 flairView.setText(flair)
                 holder.flairsLl.addView(flairView)
