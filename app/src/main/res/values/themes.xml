@@ -15,7 +15,14 @@
         <item name="android:statusBarColor">@color/white</item>
         <!-- Customize your theme here. -->
             <!-- Other items -->
+
+        <item name="android:textColorSecondary">@color/blackish_constant</item>
+        <item name="android:colorControlNormal">@color/blackish_constant</item>
         <item name="searchViewStyle">@style/MySearchViewStyle</item>
+    </style>
+    <style name="ToolbarColor" parent="Theme.BacPrep">
+        <item name="android:textColorSecondary">@color/blackish_constant</item>
+        <item name="android:colorControlNormal">@color/blackish_constant</item>
     </style>
 
     <style name="ToolbarTitleTextStyle" parent="Widget.MaterialComponents.Toolbar">
@@ -28,7 +35,8 @@
     <style name="ToolbarColorStyle" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Define your custom font family here -->
         <!-- Customize other text attributes as needed -->
-        <item name="buttonIconTint">@color/white_constant</item>
+        <item name="buttonIconTint">@color/blackish_to_white</item>
+        <item name="navigationIconTint">@color/blackish_to_white</item>
     </style>
 
     <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">

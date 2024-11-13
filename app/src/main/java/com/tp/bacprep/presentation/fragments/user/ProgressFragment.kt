@@ -193,7 +193,7 @@ class ProgressFragment : Fragment(), ModulesProgressAdapter.ModuleProgressClickL
     }
 
     private fun getTimeUntilExam(){
-        val targetDate = LocalDate.of(2024, Month.JUNE, 9)
+        val targetDate = LocalDate.of(LocalDate.now().year + 1, Month.JUNE, 9)
         val timeRemaining = Duration.between(LocalDateTime.now(), LocalDateTime.of(targetDate, java.time.LocalTime.MIDNIGHT))
         val monthsRemaining = timeRemaining.toDays() / 30
         val daysRemaining = timeRemaining.toDays() % 30

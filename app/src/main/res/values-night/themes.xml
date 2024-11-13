@@ -21,6 +21,8 @@
         <!-- Define your custom font family here -->
         <!-- Customize other text attributes as needed -->
         <item name="buttonIconTint">@color/sea_blue</item>
+        <item name="navigationIconTint">@color/white_constant</item>
+
     </style>
 
     <style name="CustomCheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">

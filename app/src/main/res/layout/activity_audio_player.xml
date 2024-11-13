@@ -40,7 +40,7 @@
         android:id="@+id/tv_audio_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cours d'histoire "
+        app:fontFamily="@font/cairo_regular_arabic"
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:gravity="center"

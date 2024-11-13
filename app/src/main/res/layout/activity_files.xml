@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layoutDirection="ltr"
     android:background="@color/white_to_grayish_black"
-    tools:context=".activities.user.FilesActivity">
+    tools:context=".presentation.activities.user.FilesActivity">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar_downloads"
@@ -16,8 +16,9 @@
             android:background="@color/light_gray_to_deep_charcoal"
             app:navigationIcon="@drawable/icon_arrow_left"
             app:title="@string/telechargement"
+            app:navigationIconTint="@color/blackish_constant"
             app:titleTextColor="@color/black"
-            app:theme="@style/ToolbarColorStyle"
+            android:theme="@style/ToolbarColor"
             app:titleTextAppearance="@style/ToolbarTitleTextStyle"
             app:layout_constraintTop_toTopOf="parent"
             />

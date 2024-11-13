@@ -1,3 +1,5 @@
+Sure, here's the updated README file with three placeholder image locations:
+
 # BacPrep
 
 BacPrep is a comprehensive mobile application designed to help Algerian Baccalaureate students prepare for their exams through various interactive learning tools and features.
@@ -36,13 +38,13 @@ BacPrep provides a complete ecosystem for Baccalaureate preparation, offering bo
 - **Average Calculator**: Calculate and track academic averages
 - **University Portal**: Explore university programs and requirements
 - **Progress Tracker**:
-    - Track subject-wise progress
-    - Unit completion monitoring
-    - Visual progress indicators
+  - Track subject-wise progress
+  - Unit completion monitoring
+  - Visual progress indicators
 - **Time Management**:
-    - Pomodoro timer
-    - Study session tracking
-    - Productivity analytics
+  - Pomodoro timer
+  - Study session tracking
+  - Productivity analytics
 
 #### 🎧 Audio Lessons
 - Access to recorded educational content
@@ -73,10 +75,13 @@ Guidelines for contributors:
 - Current Version: [Version Number]
 - Release Date: [Date]
 
-
 ## 👥 Team
-Main Developer : Anis Zadri
+Main Developer: Anis Zadri
 
 ---
 
 *BacPrep - Empowering Algerian students for success in Baccalaureate examinations*
+
+![BacPrep App Screenshot 1](images/bac prep banner1.jpg)
+![BacPrep App Screenshot 2](images/bac prep banner2.jpg)
+

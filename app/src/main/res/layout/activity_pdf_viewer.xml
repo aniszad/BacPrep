@@ -14,7 +14,6 @@
     <com.github.chrisbanes.photoview.PhotoView
         android:id="@+id/image_view"
         android:scaleType="fitCenter"
-        android:src="@drawable/image_quizz_banner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
