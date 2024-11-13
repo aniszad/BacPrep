@@ -82,6 +82,6 @@ Main Developer: Anis Zadri
 
 *BacPrep - Empowering Algerian students for success in Baccalaureate examinations*
 
-![BacPrep App Screenshot 1](images/bac prep banner1.jpg)
-![BacPrep App Screenshot 2](images/bac prep banner2.jpg)
+![BacPrep App Screenshot 1](images/banner1.png)
+![BacPrep App Screenshot 2](images/banner2.png)
 
